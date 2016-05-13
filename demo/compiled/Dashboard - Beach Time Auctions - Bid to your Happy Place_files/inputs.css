@@ -1,0 +1,18 @@
+/* NOTICE - BUTTON STYLES DO NOT EFFECT ITS SIZE, ONLY ITS COLORING AND BORDERS AND HOVER PROPERTIES */
+
+.sandButton{
+    background-color:#FFF9C4; border-radius:2px; border:1px solid #A1887F;  color:#4E342E; cursor:pointer;   
+}
+.sandButton:hover {
+    background-color:#fff490;    
+}
+
+.sandButtonStatic {
+    background-color:#fff490;  border-radius:2px; border:1px solid #A1887F;  color:#4E342E;  
+}
+
+
+
+.sandTextInput{
+    background-color:white; border-radius:2px; border:1px solid #A1887F;  color:#4E342E;    
+}

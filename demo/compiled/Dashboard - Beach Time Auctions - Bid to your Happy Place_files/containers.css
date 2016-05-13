@@ -1,0 +1,8 @@
+.whiteTileContainer{
+    background-color:white; border-radius:0px; border:1px solid rgba(8, 8, 8, 0.12);  color:#4E342E;    
+}
+
+
+.sandContainer{
+    background-color:#FFF9C4; border-radius:2px; border:1px solid #A1887F;  color:#4E342E; 
+}

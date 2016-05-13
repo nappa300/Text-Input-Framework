@@ -1,0 +1,564 @@
+
+<!-- saved from url=(0034)http://localhost:8888/staff/clerk/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- load header and always required globals -->
+        <title>Dashboard - Beach Time Auctions - Bid to your Happy Place</title>
+        <!--  
+<title>  Beach Time Auctions - Bid to your Happy Place </title>
+-->
+<link rel="icon" type="image/png" href="http://localhost:8888/img/favicon/beachtime.png">
+
+<!-- enable proper reading of special characters -->
+
+    
+<!-- requires zoomed in on mobile, good for UX -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    
+<!-- include CSS sheets -->    
+<link rel="stylesheet" type="text/css" href="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/global.css">
+<link rel="stylesheet" type="text/css" href="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/flexbox.css">  
+<link rel="stylesheet" type="text/css" href="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/inputs.css">  
+<link rel="stylesheet" type="text/css" href="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/containers.css">  
+<link rel="stylesheet" type="text/css" href="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/spinners.css">  
+    
+    
+       
+    
+        
+        <!-- due to using text_input -->
+        <!-- static -->
+<script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/handler.js"></script><style type="text/css"></style>
+<script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/handler(1).js"></script>
+
+
+<!-- addALine extension -->
+</head><body><div style="display:none" id="text_input_js_extend_template1">
+    
+    
+        <div style="height:5px;"></div>
+        <div id="IDHOLDERSTR_inputHolder" class="" style="padding:5px 15px; ">
+            <div style=" width:100%;" class="flexme ">
+                <input id="IDHOLDERSTR_inputElement" type="text" class="flex1 " style=" font-size:16px; color:black;  background-color:inherit; border:0px; ">
+            </div>
+        </div>
+
+
+
+
+</div><script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/handler(2).js"></script>
+<script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/handler(3).js"></script>
+
+
+
+
+<!-- dynamic definitions -->
+<link rel="stylesheet" type="text/css" href="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/css.css">  
+<script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/init.js"></script>
+
+        <script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/index.js"></script>
+        <script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/handler(4).js"></script>
+        <script src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/handler(5).js"></script>
+    
+
+    
+    
+    
+        <div style="position:absolute; top:0; left:0; right:0; min-height:100%;" class="">
+            
+            
+                <div class="flexme " style="width:100%; padding:15px 0px;">
+                    <div style="margin:Auto;" class=" ">
+                        <div style="text-align:Center; font-size:21px;">
+                            Record Live Auction
+                        </div>
+                        <div style="margin-top:5px;"></div>
+                        <div style="width:100%;" class="flexme unselectable">
+                            <div style="margin:auto;">
+                                <img src="./Dashboard - Beach Time Auctions - Bid to your Happy Place_files/recordWBandC.png" style="height:75px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div style="height:35px;"></div>
+                
+
+                
+                <!-- Begin Input Form -->
+                <div style="width:100%;" class="flexme">
+                    <div class="" style="font-size:18px;max-width:700px; width:100%; min-width:300px; margin:auto; ">
+                    <div style="padding:15px 30px; ">
+   
+                        
+                            
+    <div id="vendorID_mainHolder" style="width:100%; border:0px;  padding:5px 0px;  " class="">
+        <div id="vendorID_labelHolder" class="flexme  text_handler_SupportTextColorDefault" style="width:100%;">
+            <div style="margin:auto; margin-left:0px;  font-size:14px; ">
+                Vendor ID            </div>
+            <div style="margin:auto; margin-right:0px;  font-size:12px; ">
+                            </div>
+        </div>
+        <div style="height:5px;"></div>
+        <div id="vendorID_inputHolder" style="padding:5px 15px; " class=" text_handler_BottomBorderDefault">
+            <div style=" width:100%;" class="flexme ">
+                                    <div style="" class="flexme">
+                        <div id="vendorID_placeHolder" style="margin:auto; margin-left:0px;" class=" text_handler_SupportTextColorDefault"> 
+                                 
+                        </div>
+                    </div>
+                                <input id="vendorID_inputElement" type="text" class="flex1  null" placeholder="" style=" font-size:16px; color:black;  background-color:inherit; border:0px; ">
+            </div>
+        </div>
+    </div>
+
+        <!-- if using text_handler js -->
+        <script>
+            //////////////
+            // Anonymous Function in order to maintain private scope on thisHandler and theID, as well as to free() them
+            //////////////
+            (function(theID){
+                //console.log(theID);
+                
+                
+                
+                ////////////////
+                // Instantiate this Label
+                ////////////////
+                var labelHandler = new global_textLabelHandler();
+                labelHandler.element = document.getElementById(theID + "_"+"labelHolder");
+                labelHandler.initialize();
+                
+                ////////////////
+                // Instantiate this Object
+                ////////////////
+                var thisHandler = new global_textHandler();
+                thisHandler.DOM.inputElement = document.getElementById(theID + "_"+"inputElement");
+                thisHandler.DOM.inputHolder = document.getElementById(theID + "_"+"inputHolder");
+                thisHandler.DOM.placeHolder = document.getElementById(theID + "_"+"placeHolder");
+                thisHandler.labelManager = labelHandler;
+                                    thisHandler.required = true;
+                                                thisHandler.initialize();
+                
+                ////////////////
+                // Add Text Handler to Label Manager 
+                ////////////////
+                labelHandler.textHandlers.push(thisHandler);
+                
+                ////////////////
+                // Set Classes to Elements
+                ////////////////
+                document.getElementById(theID + "_" + "inputElement").className += " " + thisHandler.classes.inputElement.default;
+                document.getElementById(theID + "_" + "inputHolder").className += " " + thisHandler.classes.inputHolder.default;
+                document.getElementById(theID + "_" + "placeHolder").className += " " + thisHandler.classes.placeHolder.default;
+                
+                ////////////////
+                // Globalize Elements
+                ////////////////
+                if(window["textHandlers"] == undefined){
+                    window["textHandlers"] = {};   
+                }
+                if(window["textHandlersOrdered"] == undefined){
+                    window["textHandlersOrdered"] = [];   
+                }
+                if(window["labelManagers"] == undefined){
+                    window["labelManagers"] = {};   
+                }
+                window["textHandlers"][theID] = thisHandler;
+                window["textHandlersOrdered"].push(thisHandler);
+                window["labelManagers"][theID] = labelHandler;
+                
+                
+                
+                //console.log(window["textHandlers"]);
+            })("vendorID");
+        </script>
+    
+                            <div style="height:25px;"></div>
+                            
+    <div id="description_mainHolder" style="width:100%; border:0px;  padding:5px 0px;  " class="">
+        <div id="description_labelHolder" class="flexme  text_handler_SupportTextColorDefault" style="width:100%;">
+            <div style="margin:auto; margin-left:0px;  font-size:14px; ">
+                Description            </div>
+            <div style="margin:auto; margin-right:0px;  font-size:12px; ">
+                            </div>
+        </div>
+        <div style="height:5px;"></div>
+        <div id="description_inputHolder" style="padding:5px 15px; " class=" text_handler_BottomBorderDefault">
+            <div style=" width:100%;" class="flexme ">
+                                    <div style="" class="flexme">
+                        <div id="description_placeHolder" style="margin:auto; margin-left:0px;" class=" text_handler_SupportTextColorDefault"> 
+                                 
+                        </div>
+                    </div>
+                                <input id="description_inputElement" type="text" class="flex1  null" placeholder="" style=" font-size:16px; color:black;  background-color:inherit; border:0px; ">
+            </div>
+        </div>
+    </div>
+
+        <!-- if using text_handler js -->
+        <script>
+            //////////////
+            // Anonymous Function in order to maintain private scope on thisHandler and theID, as well as to free() them
+            //////////////
+            (function(theID){
+                //console.log(theID);
+                
+                
+                
+                ////////////////
+                // Instantiate this Label
+                ////////////////
+                var labelHandler = new global_textLabelHandler();
+                labelHandler.element = document.getElementById(theID + "_"+"labelHolder");
+                labelHandler.initialize();
+                
+                ////////////////
+                // Instantiate this Object
+                ////////////////
+                var thisHandler = new global_textHandler();
+                thisHandler.DOM.inputElement = document.getElementById(theID + "_"+"inputElement");
+                thisHandler.DOM.inputHolder = document.getElementById(theID + "_"+"inputHolder");
+                thisHandler.DOM.placeHolder = document.getElementById(theID + "_"+"placeHolder");
+                thisHandler.labelManager = labelHandler;
+                                    thisHandler.required = true;
+                                                thisHandler.initialize();
+                
+                ////////////////
+                // Add Text Handler to Label Manager 
+                ////////////////
+                labelHandler.textHandlers.push(thisHandler);
+                
+                ////////////////
+                // Set Classes to Elements
+                ////////////////
+                document.getElementById(theID + "_" + "inputElement").className += " " + thisHandler.classes.inputElement.default;
+                document.getElementById(theID + "_" + "inputHolder").className += " " + thisHandler.classes.inputHolder.default;
+                document.getElementById(theID + "_" + "placeHolder").className += " " + thisHandler.classes.placeHolder.default;
+                
+                ////////////////
+                // Globalize Elements
+                ////////////////
+                if(window["textHandlers"] == undefined){
+                    window["textHandlers"] = {};   
+                }
+                if(window["textHandlersOrdered"] == undefined){
+                    window["textHandlersOrdered"] = [];   
+                }
+                if(window["labelManagers"] == undefined){
+                    window["labelManagers"] = {};   
+                }
+                window["textHandlers"][theID] = thisHandler;
+                window["textHandlersOrdered"].push(thisHandler);
+                window["labelManagers"][theID] = labelHandler;
+                
+                
+                
+                //console.log(window["textHandlers"]);
+            })("description");
+        </script>
+    
+                            <div style="height:25px;"></div>
+                            
+    <div id="totalUnits_mainHolder" style="width:100%; border:0px;  padding:5px 0px;  " class="">
+        <div id="totalUnits_labelHolder" class="flexme  text_handler_SupportTextColorDefault" style="width:100%;">
+            <div style="margin:auto; margin-left:0px;  font-size:14px; ">
+                Total Units            </div>
+            <div style="margin:auto; margin-right:0px;  font-size:12px; ">
+                optional            </div>
+        </div>
+        <div style="height:5px;"></div>
+        <div id="totalUnits_inputHolder" style="padding:5px 15px; " class=" text_handler_BottomBorderDefault">
+            <div style=" width:100%;" class="flexme ">
+                                    <div style="" class="flexme">
+                        <div id="totalUnits_placeHolder" style="margin:auto; margin-left:0px;" class=" text_handler_SupportTextColorDefault"> 
+                                 
+                        </div>
+                    </div>
+                                <input id="totalUnits_inputElement" type="text" class="flex1  null" placeholder="" style=" font-size:16px; color:black;  background-color:inherit; border:0px; ">
+            </div>
+        </div>
+    </div>
+
+        <!-- if using text_handler js -->
+        <script>
+            //////////////
+            // Anonymous Function in order to maintain private scope on thisHandler and theID, as well as to free() them
+            //////////////
+            (function(theID){
+                //console.log(theID);
+                
+                
+                
+                ////////////////
+                // Instantiate this Label
+                ////////////////
+                var labelHandler = new global_textLabelHandler();
+                labelHandler.element = document.getElementById(theID + "_"+"labelHolder");
+                labelHandler.initialize();
+                
+                ////////////////
+                // Instantiate this Object
+                ////////////////
+                var thisHandler = new global_textHandler();
+                thisHandler.DOM.inputElement = document.getElementById(theID + "_"+"inputElement");
+                thisHandler.DOM.inputHolder = document.getElementById(theID + "_"+"inputHolder");
+                thisHandler.DOM.placeHolder = document.getElementById(theID + "_"+"placeHolder");
+                thisHandler.labelManager = labelHandler;
+                                                thisHandler.initialize();
+                
+                ////////////////
+                // Add Text Handler to Label Manager 
+                ////////////////
+                labelHandler.textHandlers.push(thisHandler);
+                
+                ////////////////
+                // Set Classes to Elements
+                ////////////////
+                document.getElementById(theID + "_" + "inputElement").className += " " + thisHandler.classes.inputElement.default;
+                document.getElementById(theID + "_" + "inputHolder").className += " " + thisHandler.classes.inputHolder.default;
+                document.getElementById(theID + "_" + "placeHolder").className += " " + thisHandler.classes.placeHolder.default;
+                
+                ////////////////
+                // Globalize Elements
+                ////////////////
+                if(window["textHandlers"] == undefined){
+                    window["textHandlers"] = {};   
+                }
+                if(window["textHandlersOrdered"] == undefined){
+                    window["textHandlersOrdered"] = [];   
+                }
+                if(window["labelManagers"] == undefined){
+                    window["labelManagers"] = {};   
+                }
+                window["textHandlers"][theID] = thisHandler;
+                window["textHandlersOrdered"].push(thisHandler);
+                window["labelManagers"][theID] = labelHandler;
+                
+                
+                
+                //console.log(window["textHandlers"]);
+            })("totalUnits");
+        </script>
+    
+                            <div style="height:25px;"></div>
+                        
+                        <div style="width:100%; border:0px;  padding:5px 0px; font-size:16px;  color:black;" class="flexme">
+                            <div style="width:250px;">
+                                    
+    <div id="buyerID_0_mainHolder" style="width:100%; border:0px;  padding:5px 0px;  " class="">
+        <div id="buyerID_0_labelHolder" class="flexme  text_handler_SupportTextColorDefault" style="width:100%;">
+            <div style="margin:auto; margin-left:0px;  font-size:14px; ">
+                Buyer ID            </div>
+            <div style="margin:auto; margin-right:0px;  font-size:12px; ">
+                            </div>
+        </div>
+        <div style="height:5px;"></div>
+        <div id="buyerID_0_inputHolder" style="padding:5px 15px; " class=" text_handler_BottomBorderDefault">
+            <div style=" width:100%;" class="flexme ">
+                                    <div style="" class="flexme">
+                        <div id="buyerID_0_placeHolder" style="margin:auto; margin-left:0px;" class=" text_handler_SupportTextColorDefault"> 
+                                 
+                        </div>
+                    </div>
+                                <input id="buyerID_0_inputElement" type="text" class="flex1  null" placeholder="" style=" font-size:16px; color:black;  background-color:inherit; border:0px; ">
+            </div>
+        </div>
+    </div>
+
+        <!-- if using text_handler js -->
+        <script>
+            //////////////
+            // Anonymous Function in order to maintain private scope on thisHandler and theID, as well as to free() them
+            //////////////
+            (function(theID){
+                //console.log(theID);
+                
+                
+                
+                ////////////////
+                // Instantiate this Label
+                ////////////////
+                var labelHandler = new global_textLabelHandler();
+                labelHandler.element = document.getElementById(theID + "_"+"labelHolder");
+                labelHandler.initialize();
+                
+                ////////////////
+                // Instantiate this Object
+                ////////////////
+                var thisHandler = new global_textHandler();
+                thisHandler.DOM.inputElement = document.getElementById(theID + "_"+"inputElement");
+                thisHandler.DOM.inputHolder = document.getElementById(theID + "_"+"inputHolder");
+                thisHandler.DOM.placeHolder = document.getElementById(theID + "_"+"placeHolder");
+                thisHandler.labelManager = labelHandler;
+                                    thisHandler.required = true;
+                                                    thisHandler.inputValidationFunction = buyerValidationFunction;
+                                thisHandler.initialize();
+                
+                ////////////////
+                // Add Text Handler to Label Manager 
+                ////////////////
+                labelHandler.textHandlers.push(thisHandler);
+                
+                ////////////////
+                // Set Classes to Elements
+                ////////////////
+                document.getElementById(theID + "_" + "inputElement").className += " " + thisHandler.classes.inputElement.default;
+                document.getElementById(theID + "_" + "inputHolder").className += " " + thisHandler.classes.inputHolder.default;
+                document.getElementById(theID + "_" + "placeHolder").className += " " + thisHandler.classes.placeHolder.default;
+                
+                ////////////////
+                // Globalize Elements
+                ////////////////
+                if(window["textHandlers"] == undefined){
+                    window["textHandlers"] = {};   
+                }
+                if(window["textHandlersOrdered"] == undefined){
+                    window["textHandlersOrdered"] = [];   
+                }
+                if(window["labelManagers"] == undefined){
+                    window["labelManagers"] = {};   
+                }
+                window["textHandlers"][theID] = thisHandler;
+                window["textHandlersOrdered"].push(thisHandler);
+                window["labelManagers"][theID] = labelHandler;
+                
+                
+                
+                //console.log(window["textHandlers"]);
+            })("buyerID_0");
+        </script>
+    
+                                </div>
+                            <div style="padding:0px 15px; width:15px;" class="flexme">
+                            </div>
+                            <div style="width:250px;">
+                                    
+    <div id="quantities_0_mainHolder" style="width:100%; border:0px;  padding:5px 0px;  " class="">
+        <div id="quantities_0_labelHolder" class="flexme  text_handler_SupportTextColorDefault" style="width:100%;">
+            <div style="margin:auto; margin-left:0px;  font-size:14px; ">
+                Quantities            </div>
+            <div style="margin:auto; margin-right:0px;  font-size:12px; ">
+                            </div>
+        </div>
+        <div style="height:5px;"></div>
+        <div id="quantities_0_inputHolder" style="padding:5px 15px; " class=" text_handler_BottomBorderDefault">
+            <div style=" width:100%;" class="flexme ">
+                                    <div style="" class="flexme">
+                        <div id="quantities_0_placeHolder" style="margin:auto; margin-left:0px;" class=" text_handler_SupportTextColorDefault"> 
+                                 
+                        </div>
+                    </div>
+                                <input id="quantities_0_inputElement" type="text" class="flex1  null" placeholder="" style=" font-size:16px; color:black;  background-color:inherit; border:0px; ">
+            </div>
+        </div>
+    </div>
+
+        <!-- if using text_handler js -->
+        <script>
+            //////////////
+            // Anonymous Function in order to maintain private scope on thisHandler and theID, as well as to free() them
+            //////////////
+            (function(theID){
+                //console.log(theID);
+                
+                
+                
+                ////////////////
+                // Instantiate this Label
+                ////////////////
+                var labelHandler = new global_textLabelHandler();
+                labelHandler.element = document.getElementById(theID + "_"+"labelHolder");
+                labelHandler.initialize();
+                
+                ////////////////
+                // Instantiate this Object
+                ////////////////
+                var thisHandler = new global_textHandler();
+                thisHandler.DOM.inputElement = document.getElementById(theID + "_"+"inputElement");
+                thisHandler.DOM.inputHolder = document.getElementById(theID + "_"+"inputHolder");
+                thisHandler.DOM.placeHolder = document.getElementById(theID + "_"+"placeHolder");
+                thisHandler.labelManager = labelHandler;
+                                    thisHandler.required = true;
+                                                    thisHandler.inputValidationFunction = quantitiesValidationFunction;
+                                thisHandler.initialize();
+                
+                ////////////////
+                // Add Text Handler to Label Manager 
+                ////////////////
+                labelHandler.textHandlers.push(thisHandler);
+                
+                ////////////////
+                // Set Classes to Elements
+                ////////////////
+                document.getElementById(theID + "_" + "inputElement").className += " " + thisHandler.classes.inputElement.default;
+                document.getElementById(theID + "_" + "inputHolder").className += " " + thisHandler.classes.inputHolder.default;
+                document.getElementById(theID + "_" + "placeHolder").className += " " + thisHandler.classes.placeHolder.default;
+                
+                ////////////////
+                // Globalize Elements
+                ////////////////
+                if(window["textHandlers"] == undefined){
+                    window["textHandlers"] = {};   
+                }
+                if(window["textHandlersOrdered"] == undefined){
+                    window["textHandlersOrdered"] = [];   
+                }
+                if(window["labelManagers"] == undefined){
+                    window["labelManagers"] = {};   
+                }
+                window["textHandlers"][theID] = thisHandler;
+                window["textHandlersOrdered"].push(thisHandler);
+                window["labelManagers"][theID] = labelHandler;
+                
+                
+                
+                //console.log(window["textHandlers"]);
+            })("quantities_0");
+        </script>
+    
+                                </div>
+                            
+                        </div>
+                        
+                        
+                        <!--
+                        <div class = 'flexme ' style = 'width:100%;'>
+                            <div id = 'signinButton' 
+                                 class = 'flexme unselectable sandButton' 
+                                 style = 'min-width:175px; max-width:300px; width:100%; height:35px; padding:5px; margin:auto;'>
+                                <div style = 'margin:auto;' class = '' id = 'signinButton-inputText'>Enter</div>
+                                <div style = 'margin:auto;' class = 'disnon' id = 'signinButton-loadingImageHolder'>
+                                    <div style = 'margin:auto;'>
+                                        <div class="spinner" style = 'margin-top:7px;'>
+                                          <div class="dot1"></div>
+                                          <div class="dot2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                /*
+                                signinButton_handler = global_buttonHandler.new();
+                                signinButton_handler.mainHolder = document.getElementById("signinButton"); 
+                                signinButton_handler.classes = {default : "sandButton", static : "sandButtonStatic", root : "flexme unselectable"};
+                                signinButton_handler.textHolder = document.getElementById("signinButton-inputText");
+                                signinButton_handler.loadingImageHolder = document.getElementById("signinButton-loadingImageHolder");
+                                signinButton_handler.devmode = false;
+                                */
+                            </script>
+                        </div>
+                        -->
+                        
+                        <script>
+                            extraBuyerHandler.initialize();
+                            //document.getElementById("quantities_1"+"_inputElement").addEventListener("keyup", function(){ console.log("Hella"); }, true);
+                            global_formMovementManager.initialize();
+                        </script>
+
+                    </div>    
+                    </div>
+                </div>
+                <!-- end input form -->
+        </div>
+        
+
+</body></html>

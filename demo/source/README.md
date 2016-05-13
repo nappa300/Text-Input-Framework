@@ -1,0 +1,1 @@
+Note, not all files that index.php depends on are here. Please see readme in parent directory for more info.
