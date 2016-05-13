@@ -17,6 +17,7 @@ Tips : <br/>
 To Do
 --
 Unit Testing for Framework Components
+Instantiation of global (window[]) variables in seperate file
 
 
 
